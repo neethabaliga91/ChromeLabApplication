@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Process Guide",
+  "version": "1",
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "permissions": [
+  "alwaysOnTopWindows", "webview"
+],
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "minimum_chrome_version": "28"
+}
